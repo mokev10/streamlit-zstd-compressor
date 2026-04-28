@@ -5,8 +5,10 @@ import tempfile
 
 # Configuration de la page
 st.set_page_config(
-    page_title="Zstd Ultra Compressor", layout="centered"
-        page_icon="https://img.icons8.com/fluency/48/folder-invoices--v2.png",
+    page_title="AI Compressor Files",
+    page_icon="https://img.icons8.com/fluency/48/folder-invoices--v2.png",
+    layout="wide",
+    initial_sidebar_state="expanded",
 )
 st.title("🗜️ Zstandard Ultra Compressor")
 
