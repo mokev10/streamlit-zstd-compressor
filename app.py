@@ -4,7 +4,10 @@ import os
 import tempfile
 
 # Configuration de la page
-st.set_page_config(page_title="Zstd Ultra Compressor", layout="centered")
+st.set_page_config(
+    page_title="Zstd Ultra Compressor", layout="centered"
+        page_icon="https://img.icons8.com/fluency/48/folder-invoices--v2.png",
+)
 st.title("🗜️ Zstandard Ultra Compressor")
 
 # Fonctions de compression intégrées pour éviter les erreurs d'import
