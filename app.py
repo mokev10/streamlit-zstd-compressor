@@ -11,7 +11,6 @@ import stat
 import subprocess
 import sys
 import zlib
-from tempfile import TemporaryDirectory
 from struct import Struct
 from zipfile import ZipFile
 
