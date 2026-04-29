@@ -45,7 +45,7 @@ def get_log_text(key: str) -> str:
 # ---------------------------
 
 DEFAULT_VERSION = "3.5.3"
-DEFAULT_FILENAME_TEMPLATE = "libarchive-{version}.tar.gz"
+DEFAULT_FILENAME_TEMPLATE = "AI Compressor Files-{version}.tar.gz"
 DEFAULT_URL_TEMPLATE = "https://www.libarchive.org/downloads/{filename}"
 DEFAULT_CHECKSUM = "72788e5f58d16febddfa262a5215e05fc9c79f2670f641ac039e6df44330ef51"
 
