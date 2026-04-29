@@ -6,5 +6,5 @@ Cette application a été développée avec **Streamlit** et utilise la biblioth
 
 - Auteur : Fanomezantsoa
 - Licence : MIT
-- Dépôt GitHub : [streamlit-zstd-compressor](https://github.com/mokev10/streamlit-zstd-compressor)
+- Dépôt GitHub : [streamlit-zstd-compressor](https://github.com/mokev10/streamlit-zstd-compressor/blob/main/README.md)
 """)
