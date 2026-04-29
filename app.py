@@ -12,9 +12,7 @@ import sys
 import zlib
 from struct import Struct
 from zipfile import ZipFile
-
 import pytest
-import pyzipper
 from stream_unzip import IncorrectAESPasswordError, UnsupportedZip64Error, stream_unzip
 
 from stream_zip import (
