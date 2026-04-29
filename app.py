@@ -184,9 +184,6 @@ def decompress_with_zstd(input_bytes: bytes) -> bytes:
 # UI Streamlit
 # ---------------------------
 
-st.set_page_config(page_title="Streamlit Zstd + libarchive Installer", layout="wide")
-st.title("Streamlit Zstd Compressor & libarchive Installer")
-
 # Sidebar: installation options
 st.sidebar.header("Installer libarchive (depuis les sources)")
 with st.sidebar.form("install_form"):
