@@ -1,2 +1,48 @@
 [run]
 branch = True
+source =
+    stream_zip
+omit =
+    tests/*
+    docs/*
+    scripts/*
+    */__init__.py
+    */__main__.py
+    */setup.py
+    */install_*.py
+    */install-*.py
+    */libarchive-*/**
+    */node_modules/**
+
+[report]
+# Nombre de décimales pour les pourcentages
+precision = 2
+# Ne pas afficher les fichiers omis
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
+    if typing.TYPE_CHECKING:
+    @dataclass
+# Afficher les fichiers manquants
+show_missing = True
+# Limiter l'affichage aux 100 premiers fichiers
+skip_covered = False
+
+[html]
+directory = htmlcov
+title = Coverage report for stream-zip
+
+[xml]
+output = coverage.xml
+
+[paths]
+# Permet de combiner plusieurs répertoires (utile pour tests en CI ou containers)
+source =
+    src
+    .
+
+[thresholds]
+# Seuils facultatifs pour CI ; 0 désactive la vérification stricte
+# Vous pouvez ajuster ces valeurs selon vos exigences
+coverage_percent = 80
+branch_coverage_percent = 70
