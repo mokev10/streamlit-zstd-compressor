@@ -34,7 +34,7 @@ import zstandard as zstd
 # Page config
 # -------------------------
 st.set_page_config(
-    page_title="Ultra-fast Zstd Compressor",
+    page_title="Ultra-fast file compressor | AI-powered booster",
     page_icon="https://img.icons8.com/external-flat-juicy-fish/60/external-zip-data-organisation-flat-flat-juicy-fish.png",
     layout="wide",
     initial_sidebar_state="expanded",
