@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.title("🗜️ standard Ultra Compressor")
+st.title("🗜️ Standard Ultra Compressor")
 
 # Fonctions de compression et décompression
 def compress_data(data: bytes, level: int) -> bytes:
@@ -41,12 +41,12 @@ if uploaded_file:
 
     # Colonne compression
     with col1:
-        if st.button("🚀 Compresser"):
+        if st.button("Compresser"):
             with st.spinner("Compression ultra en cours..."):
                 try:
                     compressed = compress_data(file_bytes, level)
                     st.download_button(
-                        label="⬇️ Télécharger le fichier compressé (.zst)",
+                        label="Télécharger le fichier compressé (.zst)",
                         data=compressed,
                         file_name=f"{filename}.zst"
                     )
@@ -63,7 +63,7 @@ if uploaded_file:
                         decompressed = decompress_data(file_bytes)
                         new_filename = filename.replace(".zst", "")
                         st.download_button(
-                            label="⬇️ Télécharger le fichier décompressé",
+                            label="Télécharger le fichier décompressé",
                             data=decompressed,
                             file_name=new_filename
                         )
