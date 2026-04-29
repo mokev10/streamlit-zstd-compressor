@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.title("🗜️ Zstandard Ultra Compressor")
+st.title("🗜️ standard Ultra Compressor")
 
 # Fonctions de compression et décompression
 def compress_data(data: bytes, level: int) -> bytes:
