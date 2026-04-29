@@ -1,1 +1,25 @@
+# CODEOWNERS
+# Format: <pattern> <owner> <owner> ...
+# Placez ce fichier à la racine du dépôt, dans .github/ ou dans docs/ selon vos besoins.
+#
+# Ligne globale: toute modification doit être revue par l'équipe data-infrastructure
 * @uktrade/data-infrastructure
+
+# Exemples d'entrées plus granulaires (décommentez/ajoutez si vous voulez déléguer)
+# Fichiers Python du package principal
+# /stream_zip/ @uktrade/data-infrastructure @your-org/python-team
+
+# Fichiers de documentation
+# /docs/ @your-org/docs-team
+
+# Scripts d'installation et utilitaires
+# /scripts/ @your-org/devops-team
+
+# Fichiers de configuration CI
+# .github/workflows/ @your-org/ci-team
+
+# Frontend / assets
+# docs/assets/ @your-org/frontend-team
+
+# Tests
+# tests/ @your-org/qa-team
